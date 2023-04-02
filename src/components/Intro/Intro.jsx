@@ -1,5 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
 import "./Intro.css";
+import Insta from "@iconscout/react-unicons/icons/uil-instagram";
+import Github from "@iconscout/react-unicons/icons/uil-github";
+import LinkedIn from "@iconscout/react-unicons/icons/uil-linkedin";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 import profileImage from "../../img/profileImage.png";
@@ -7,9 +10,7 @@ import react from "../../img/react.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
-import Github from "../../img/github.png";
-import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
+
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -52,10 +53,16 @@ const Intro = () => {
           <button className="button i-button">Hire me</button>
         </Link>
         {/* social icons */}
-        <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+        <div className="i-icons" >
+          <a href="https://www.linkedin.com/in/jitendramahali" target="_blank" rel="noopener noreferrer">
+            <LinkedIn color="#00337C" size={"3.5rem"} />
+          </a>
+          <a href="https://github.com/Jitendra253" target="_blank" rel="noopener noreferrer">
+            <Github color="#00337C" size={"3.5rem"} />
+          </a>
+          <a href="https://www.instagram.com/jitendramahali/" target="_blank" rel="noopener noreferrer">
+            <Insta color="#00337C" size={"3.5rem"} />
+          </a>
         </div>
       </div>
       {/* right image side */}

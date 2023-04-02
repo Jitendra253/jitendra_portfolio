@@ -11,16 +11,16 @@ const Footer = () => {
       <div className="f-content">
         <div><a href="mailto:jitendramahali253@gmail.com">jitendramahali253@gmail.com</a> | +91 9556959414</div>
         <div className="f-icons">
-          <a href="https://www.linkedin.com/in/your_linkedin_profile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/jitendramahali" target="_blank" rel="noopener noreferrer">
             <LinkedIn color="white" size={"1.5rem"} />
           </a>
-          <a href="https://github.com/your_github_profile" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Jitendra253" target="_blank" rel="noopener noreferrer">
             <Github color="white" size={"1.5rem"} />
           </a>
-          <a href="https://www.instagram.com/your_instagram_profile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/jitendramahali/" target="_blank" rel="noopener noreferrer">
             <Insta color="white" size={"1.5rem"} />
           </a>
-          <a href="https://www.facebook.com/your_facebook_profile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/jitendrakumar.mahali.1" target="_blank" rel="noopener noreferrer">
             <Facebook color="white" size={"1.5rem"} />
           </a>
         </div>
